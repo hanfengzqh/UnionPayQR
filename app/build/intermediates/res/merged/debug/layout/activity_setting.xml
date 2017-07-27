@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolbar_title_layout" />
+
+    <Button
+        android:id="@+id/btn_import_secretkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/merchant_infor"
+        android:textColor="@color/textColorFocus" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="配置服务器地址"
+        android:textColor="@color/textColorFocus" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_merchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="配置商户号"
+        android:textColor="@color/textColorFocus" />
+
+    <TextView
+        android:id="@+id/tv_public_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button_background"
+        android:padding="10dp"
+        android:textColor="@color/textColorFocus"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_private_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_button_background"
+        android:padding="10dp"
+        android:textColor="@color/textColorFocus"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

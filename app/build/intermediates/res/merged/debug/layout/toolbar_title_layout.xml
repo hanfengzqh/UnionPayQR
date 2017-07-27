@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/title_bg" >
+
+    <!-- 返回按钮 -->
+
+    <Button
+        android:id="@+id/title_back_bt"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_back_btn_bg" />
+
+    <!-- 取消按钮 -->
+
+    <Button
+        android:id="@+id/title_cancle_bt"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_cancle_btn_bg"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/title_main_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.5dp"
+        android:layout_toRightOf="@id/title_back_bt"
+        android:textColor="#fafafa"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/show_login_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/title_main_tv"
+        android:layout_below="@id/title_main_tv"
+        android:layout_marginTop="2.5dp"
+        android:textColor="#fafafa"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" >
+
+        <ImageView
+            android:id="@+id/iv_right_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/title_saoyisao_force_img_bg"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/tv_right_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:text="强制完成"
+            android:textColor="#ffffff"
+            android:textSize="7.5sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

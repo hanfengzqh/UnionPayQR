@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Indicator">
+        <attr name="indicatorColor" format="color|reference"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="GooView">
+        <attr name="fill_color" format="color" />
+        <attr name="progress_color" format="color" />
+    </declare-styleable>
+    
+     <declare-styleable name="SuperRefreshLayout">
+        <attr name="overlay" format="boolean" />
+        <!-- 下拉刷新的样式,text是纯文字样式 -->
+        <attr name="show_type" format="enum">
+            <enum name="defstr" value="0" />
+            <enum name="material" value="1" />
+            <enum name="goo" value="2" />
+        </attr>
+        <!-- 一直下拉模式 -->
+        <attr name="pull_endless" format="boolean" />
+    </declare-styleable>
+</resources>

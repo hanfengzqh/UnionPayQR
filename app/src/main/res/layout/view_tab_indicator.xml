@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_home"
+    android:gravity="center">
+
+    <include layout="@layout/layout_line_horizontal"/>
+     
+     <ImageView
+        android:id="@+id/iv_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_unionpay_normal"/> 
+
+    <TextView
+        android:id="@+id/tv_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/tabTextColorNormal"
+        android:textSize="16sp"
+        android:text="@string/main_unionpay_text"/>
+
+</LinearLayout>

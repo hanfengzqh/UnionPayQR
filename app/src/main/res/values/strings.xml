@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">银联二维码支付</string>
+    <string name="main_unionpay_text">银联</string>
+    <string name="main_h5_text">h5</string>
+    <string name="main_h5_pay_text">银联条码</string>
+    <string name="main_wechat_text">银联扫码</string>
+    <string name="main_alipay_text">支付宝</string>
+    <string name="tv_complete_text">强制完成</string>
+    <string name="text_sign">未签到</string>
+
+    <!-- 支付成功界面 -->
+    <string name="tv_order_money">订单金额：</string>
+    <string name="tv_order_code">订单号：</string>
+    <string name="tv_order_sign">凭证号：</string>
+    <string name="tv_order_state">交易状态：</string>
+    <string name="tv_order_time">交易时间：</string>
+    <string name="tv_order_refund_time">退款时间：</string>
+    <string name="tv_order_pay_way">支付方式：</string>
+    <string name="tv_order_type">订单类型：</string>
+    <string name="tv_order_operator">操作员：</string>
+    <string name="tv_order_refund_operator">退款操作员：</string>
+    <string name="text_explain">点击回到金额界面</string>
+    <string name="text_refund">退款</string>
+    <string name="text_refund_query">退款查询</string>
+    <string name="text_print">打印</string>
+    <string name="tv_reprint_text">重新打印</string>
+
+    <!-- 上拉刷新，下拉加载更多 -->
+    <integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array>
+
+    <!-- 密码键盘 -->
+    <string name="button_clear">清除</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="pwd_error_text">密码错误</string>
+    <string name="communication_process_title_text">通讯过程提示</string>
+    <string name="tv_input_supervisor_password_hint_text">请输入主管密码</string>
+
+    <!--二维码扫描-->
+    <string name="scan_allcode_hint">将二维码或条形码对入取景框，即可自动扫描</string>
+    <string name="merchant_infor">导入商户信息</string>
+    <string name="params_setting">参数配置</string>
+</resources>

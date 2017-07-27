@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColorFocus"
+    android:orientation="vertical" >
+
+    <com.zng.unionpayqr.widget.FilterView
+        android:id="@+id/fv_top_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.zng.unionpayqr.refreshlayout.view.SuperRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overlay="true"
+        app:pull_endless="true"
+        app:show_type="material" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none" />
+    </com.zng.unionpayqr.refreshlayout.view.SuperRefreshLayout>
+
+</LinearLayout>

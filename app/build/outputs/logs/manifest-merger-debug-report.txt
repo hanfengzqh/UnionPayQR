@@ -1,0 +1,182 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\zqh\.android\build-cache\21b1d3069af479f5fb08dd6d76115a5026378ece\output\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:17:22-63
+uses-permission#android.permission.CAMERA
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:19:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:20:22-77
+uses-feature#android.hardware.camera
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:23:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:24:19-63
+application
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:26:5-76:19
+	android:label
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:30:9-41
+	android:allowBackup
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:29:9-43
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:31:9-50
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:27:9-56
+activity#com.zng.unionpayqr.pro.SplashActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:32:9-42:20
+	android:label
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:34:13-45
+	android:launchMode
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:35:13-48
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:36:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:33:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:40:27-74
+activity#com.zng.unionpayqr.pro.MainActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:43:19-69
+activity#com.zng.unionpayqr.pro.SettingActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:45:9-47:57
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:47:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:46:13-66
+activity#com.zng.unionpayqr.pro.cashier_manage.activity.OrderRefundSuccessActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:48:9-51:57
+	android:launchMode
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:50:13-44
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:49:13-101
+activity#com.zng.unionpayqr.pro.cashier_manage.activity.OrderRefundActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:52:9-54:57
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:54:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:53:13-94
+activity#com.zng.unionpayqr.pro.cashier_manage.activity.OrderDetailsActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:55:9-57:57
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:57:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:56:13-95
+activity#com.zng.unionpayqr.pro.cashier.activity.PayMainActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:58:9-60:57
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:60:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:59:13-83
+activity#com.zng.unionpayqr.pro.cashier.activity.PaymentSuccessActivity
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:61:9-64:57
+	android:launchMode
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:63:13-44
+	android:theme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:62:13-90
+receiver#com.zng.unionpayqr.USBBroadCastReceiver
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:66:9-75:20
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:66:19-73
+intent-filter#android.intent.action.MEDIA_EJECT+android.intent.action.MEDIA_MOUNTED+android.intent.action.MEDIA_REMOVED+android.intent.action.MEDIA_UNMOUNTED
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:67:13-74:29
+action#android.intent.action.MEDIA_EJECT
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:68:25-73
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:69:17-78
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:69:25-75
+action#android.intent.action.MEDIA_REMOVED
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:70:25-75
+action#android.intent.action.MEDIA_UNMOUNTED
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:71:17-80
+	android:name
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:71:25-77
+data
+ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:73:17-47
+	android:scheme
+		ADDED from E:\zhinengguo\AndroidStudio\UnionPayQR1\app\src\main\AndroidManifest.xml:73:23-44

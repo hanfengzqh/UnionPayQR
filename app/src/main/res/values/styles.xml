@@ -1,0 +1,143 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+    </style>
+
+    <style name="Theme.notAnimation" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/notAnimation</item>
+    </style>
+
+    <style name="notAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 为 Theme 设置透明属性 -->
+    <style name="AppStartTheme" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColor">@color/textColorFocus</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/round_rect_translucent_black_shape</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 支付成功 -->
+    <style name="rel_order_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="order_info_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/font_black_2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="order_info_label_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/font_black_2</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 键盘公用样式 -->
+    <style name="keyboard_common_style">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/number_key_bg</item>
+    </style>
+
+    <!-- 普通键盘数字文字样式 -->
+    <style name="common_keyboard_number_text_style" parent="@style/keyboard_common_style">
+        <item name="android:textSize">@dimen/textsize_70</item>
+        <item name="android:textColor">@color/text_color_333</item>
+    </style>
+
+    <!-- 键盘 清除文字样式 -->
+    <style name="keyboard_clear_text_style" parent="@style/keyboard_common_style">
+        <item name="android:textSize">@dimen/textsize_50</item>
+        <item name="android:textColor">@color/text_color_d64e4e</item>
+    </style>
+
+    <style name="text_common_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- 46号字体333333 字体样式样式 -->
+    <style name="textsize46_textcolor333_text_style" parent="@style/text_common_style">
+        <item name="android:textSize">@dimen/textsize_46</item>
+        <item name="android:textColor">@color/text_color_333</item>
+    </style>
+
+    <!-- 30号字体333333 字体样式样式 -->
+    <style name="textsize30_textcolor333_text_style" parent="@style/text_common_style">
+        <item name="android:textSize">@dimen/textsize_30px</item>
+        <item name="android:textColor">@color/text_color_333</item>
+    </style>
+
+</resources>

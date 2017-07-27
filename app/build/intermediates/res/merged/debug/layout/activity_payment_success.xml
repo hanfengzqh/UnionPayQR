@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/toolbar_title_layout" />
+
+        <RelativeLayout
+            android:id="@+id/rel_money"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_money" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_state"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_state" />
+
+            <TextView
+                android:id="@+id/tv_order_state"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_time"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_time" />
+
+            <TextView
+                android:id="@+id/tv_order_time"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_pay_way"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_pay_way" />
+
+            <TextView
+                android:id="@+id/tv_order_pay_way"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_code"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_code" />
+
+            <TextView
+                android:id="@+id/tv_order_code"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_sign"
+            style="@style/rel_order_info"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_sign" />
+
+            <TextView
+                android:id="@+id/tv_order_sign"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_back_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/trade_success_icon_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_explain"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

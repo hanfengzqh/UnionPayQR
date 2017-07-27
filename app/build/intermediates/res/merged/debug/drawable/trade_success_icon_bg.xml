@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:state_pressed="true"  android:drawable="@drawable/trade_success_foused_icon"></item>
+	<item android:drawable="@drawable/trade_success_normal_icon"></item>
+
+</selector>

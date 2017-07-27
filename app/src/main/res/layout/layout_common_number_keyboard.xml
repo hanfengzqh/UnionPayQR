@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:id="@+id/ll_left_line1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_item_layout_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_1" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_2" />
+
+            <Button
+                android:id="@+id/button_3"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_left_line2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_item_layout_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_4"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_4" />
+
+            <Button
+                android:id="@+id/button_5"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_5" />
+
+            <Button
+                android:id="@+id/button_6"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_left_line3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_item_layout_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_7"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_7" />
+
+            <Button
+                android:id="@+id/button_8"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_8" />
+
+            <Button
+                android:id="@+id/button_9"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_left_line4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/keyboard_item_layout_height"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_null"
+                android:background="@color/common_keyboard_number_normal_color"
+                style="@style/common_keyboard_number_text_style" />
+            
+            <Button
+                android:id="@+id/button_0"
+                style="@style/common_keyboard_number_text_style"
+                android:text="@string/button_0" />
+            
+            <Button
+                android:id="@+id/button_clear"
+                style="@style/keyboard_clear_text_style"
+                android:text="@string/button_clear" />
+        </LinearLayout>
+    
+
+</LinearLayout>

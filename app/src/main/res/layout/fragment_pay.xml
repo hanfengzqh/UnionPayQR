@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolbar_title_layout" />
+
+    <LinearLayout
+        android:id="@+id/lyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tv_count_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:textColor="#ff1414"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            android:text="金额 ：0.02元"
+            android:textColor="@color/textColor"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/img_code"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp" />
+
+        <TextView
+            android:id="@+id/txt_explain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="等待交易"
+            android:textColor="@color/textColor"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <com.zng.unionpayqr.widget.ErrorHintView
+        android:id="@+id/hintView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

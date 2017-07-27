@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_load_failure.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_load_failure.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pay.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\fragment_pay.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_load_more.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_load_more.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_filter_left.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_filter_left.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gooview_refresh.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_gooview_refresh.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_filter_one.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_filter_one.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_keyboardview.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\include_keyboardview.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_custom.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\dialog_custom.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_title_layout.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\toolbar_title_layout.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_load_loading.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_load_loading.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_main.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_pay_main.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_line_horizontal.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_line_horizontal.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_def_refresh.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_def_refresh.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payment_success.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_payment_success.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_selection_title_layout.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\toolbar_selection_title_layout.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_details.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_refund.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_order_refund.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_manager.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_order_manager.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_tab_indicator.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\view_tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_order_manager.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\fragment_order_manager.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selection_amount.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_selection_amount.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input_supervisor_password.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_input_supervisor_password.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_manager.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_order_manager.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_filter_layout.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\view_filter_layout.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_error_hint_view.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\custom_error_hint_view.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_refund_success.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_order_refund_success.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_load_noorder.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_load_noorder.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_load_wifi_failure.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_load_wifi_failure.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scan_code.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\fragment_scan_code.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_filter_right.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\item_filter_right.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_error.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\dialog_error.xml"
+    },
+    {
+        "merged": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_number_keyboard.xml",
+        "source": "E:\\zhinengguo\\AndroidStudio\\UnionPayQR1\\app\\src\\main\\res\\layout\\layout_common_number_keyboard.xml"
+    }
+]

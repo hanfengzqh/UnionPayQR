@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.zng.unionpayqr"
+        minSdkVersion 14
+        targetSdkVersion 21
+        multiDexEnabled true
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+    allprojects {
+        gradle.projectsEvaluated {
+            tasks.withType(JavaCompile) {
+                options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+            }
+        }
+    }
+// 移除lint检查的error
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions{
+        exclude 'META-INF/NOTICE' // will not include NOTICE file
+        exclude 'META-INF/LICENSE' // will not include LICENSE file
+        // as noted by @Vishnuvathsan you may also need to include
+        // variations on the file name. It depends on your dependencies.
+        // Some other common variations on notice and license file names
+        exclude 'META-INF/notice'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license'
+        exclude 'META-INF/license.txt'
+    }
+}
+
+dependencies {
+    compile files('libs/bcprov-jdk15on-1.54.jar')
+    compile files('libs/commons-codec-1.6.jar')
+    compile files('libs/commons-httpclient-3.1.jar')
+    compile files('libs/commons-io-2.2.jar')
+    compile files('libs/commons-lang-2.5.jar')
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/dom4j.jar')
+    compile files('libs/fastjson-1.2.31.jar')
+    compile files('libs/glide-3.7.0.jar')
+    compile files('libs/log4j-1.2.17.jar')
+    compile files('libs/recyclerview-v7-21.0.0.jar')
+    compile files('libs/slf4j-api-1.5.11.jar')
+    compile files('libs/slf4j-log4j12-1.5.11.jar')
+    compile files('libs/xutils3.jar')
+    compile files('libs/zxing.jar')
+    compile files('libs/android-support-v4.jar')
+}

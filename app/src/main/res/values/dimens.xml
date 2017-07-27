@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_left_12_dp">12dp</dimen>
+    <!-- 密码键盘 -->
+    <dimen name="textsize_70">70px</dimen>
+    <dimen name="keyboard_item_layout_height">120px</dimen>
+    <dimen name="textsize_46">46px</dimen>
+    <dimen name="textsize_50">50px</dimen>
+    <dimen name="view_margin_110">110px</dimen>
+    <dimen name="view_margin_72">72px</dimen>
+    <dimen name="textsize_30px">30px</dimen>
+    <dimen name="view_margin_30">30px</dimen>
+</resources>

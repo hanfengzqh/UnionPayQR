@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="195dp"
+        android:background="@drawable/test_bj_icon" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="强制完成"
+            android:textColor="#1badf8"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_title"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="13.5dp"
+            android:text="您确定要强制完成这笔订单吗？"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_explain_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_explain"
+            android:layout_below="@+id/tv_explain"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="请确认/取消！"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingLeft="4.5dp"
+            android:paddingRight="4.5dp" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_cancel_bg_color"
+                android:text="取消"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:background="#bbbbbb" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_confirm_bg_color"
+                android:text="确认"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

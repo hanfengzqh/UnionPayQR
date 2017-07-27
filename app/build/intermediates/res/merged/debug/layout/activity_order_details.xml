@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_title_layout" />
+
+    <LinearLayout
+        android:id="@+id/lyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rel_money"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_money" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_state"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_state" />
+
+            <TextView
+                android:id="@+id/tv_order_state"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_time"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_time" />
+
+            <TextView
+                android:id="@+id/tv_order_time"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_refund_time"
+            style="@style/rel_order_info"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_refund_time" />
+
+            <TextView
+                android:id="@+id/tv_refund_time"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_pay_way"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_pay_way" />
+
+            <TextView
+                android:id="@+id/tv_order_pay_way"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_type"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_type" />
+
+            <TextView
+                android:id="@+id/tv_order_type"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_operator"
+            style="@style/rel_order_info" 
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_operator" />
+
+            <TextView
+                android:id="@+id/tv_order_operator"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_refund_operator"
+            android:visibility="gone"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_refund_operator" />
+
+            <TextView
+                android:id="@+id/tv_order_refund_operator"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_code"
+            style="@style/rel_order_info" >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_code" />
+
+            <TextView
+                android:id="@+id/tv_order_code"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_order_sign"
+            style="@style/rel_order_info" 
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/order_info_label"
+                android:text="@string/tv_order_sign" />
+
+            <TextView
+                android:id="@+id/tv_order_sign"
+                style="@style/order_info_label_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/btn_refund"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/refund_button_bg"
+            android:gravity="center"
+            android:text="@string/text_refund"
+            android:textColor="@color/textColorFocus"
+            android:visibility="visible"
+            android:textSize="18sp" />
+        
+        <Button
+            android:id="@+id/btn_refund_query"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/refund_button_bg"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/text_refund_query"
+            android:textColor="@color/textColorFocus"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_print"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/print_button_bg"
+            android:gravity="center"
+            android:text="@string/text_print"
+            android:textColor="@color/textColorFocus"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
