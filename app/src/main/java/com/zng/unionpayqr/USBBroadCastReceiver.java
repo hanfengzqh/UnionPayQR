@@ -1,11 +1,11 @@
 package com.zng.unionpayqr;
 
-import com.zng.unionpayqr.utils.SPUtils;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+
+import com.zng.unionpayqr.utils.SPUtils;
 
 public class USBBroadCastReceiver extends BroadcastReceiver {
 
@@ -18,13 +18,14 @@ public class USBBroadCastReceiver extends BroadcastReceiver {
 			SPUtils.putString(mContext, "USBpath","");
 		} else if (action.equals(Intent.ACTION_MEDIA_MOUNTED)) {
 			// USB设备挂载，更新UI
-			String devicePath = intent.getDataString().toLowerCase()
-					.substring(7);
-			if (devicePath.contains("usb")) {
-				// usb路径
-				Log.d("liujie", "USB设备挂载，更新UI devicePath = " + devicePath);
-				SPUtils.putString(mContext, "USBpath", devicePath);
-			}
+			String devicePath = "";
+			if (android.os.Build.VERSION.SDK_INT >= 23)
+				devicePath = intent.getDataString().substring(7);
+			else
+				devicePath = intent.getDataString().toLowerCase().substring(7);
+			// usb路径
+			Log.d("zqh", "USB设备挂载，更新UI devicePath = " + devicePath);
+			SPUtils.putString(mContext, "USBpath", devicePath);
 		}
 	}
 
